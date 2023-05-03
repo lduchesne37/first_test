@@ -1,0 +1,268 @@
+history
+    1  cd /root
+    2  nano .bashrc
+    3  exit
+    4  l
+    5  ls
+    6  cd /root
+    7  nano .bashrc
+    8  exit
+    9  ip a
+   10  nano /etc/network/interfaces
+   11  i pa
+   12  ip a
+   13  systemctl restart networking
+   14  l
+   15  apt install nmap zip dnsutiles net-tools tzdata lynx ssh sudo curl git screen
+   16  apt install nmap zip dnsutils net-tools tzdata lynx ssh sudo curl git screen
+   17  apt install locate ncdu
+   18  wget https://github.com/webmin/webmin/releases/download/2.021/webmin_2.021_all.deb
+   19  dpkg -i webmin_2.021_all.deb
+   20  apt -f install
+   21  apt install winbind samba
+   22  cd /etc/
+   23  nano hosts
+   24  nano nsswitch.conf
+   25  date
+   26  cd
+   27  nanp /etc/network/interfaces
+   28  nano /etc/network/interfaces
+   29  ip a
+   30  nano /etc/network/interfaces
+   31  cd /etc/
+   32  nano hosts
+   33  ip a
+   34  ip a
+   35  ifup
+   36  ifup ens33
+   37  ip a
+   38  lynx http://www.google.fr
+   39  git
+   40  curl http://www.perdu.com
+   41  curl -v https://objectif2038.net
+   42  telnet
+   43  apt install tcpdump
+   44  mkdir www
+   45  cd www
+   46  l
+   47  nano toto.txt
+   48  nano titi.txt
+   49  nano httpd.py
+   50  cd ..
+   51  pwg
+   52  pwd
+   53  l
+   54  rm -r www
+   55  l
+   56  rm -r /www
+   57  rm -r www/
+   58  l
+   59  apt install apache2
+   60  a2enmod ssl
+   61  a2ensite default-ssl
+   62  systemctl reload apache2
+   63  systemctl status apache2
+   64  openssl req $@ -new -x509 -days 3650 -nodes -out /etc/apache2/apache.pem -keyout /etc/apache2/apache.pem
+   65  cd etc
+   66  cd /etc/apache2/
+   67  l
+   68  cat apache.pem
+   69  q
+   70  a2enmod rewrite
+   71  a2enmod headers
+   72  systemctl reload apache2
+   73  systemctl status apache2
+   74  nano apache2.conf
+   75  cd /etc/apache2/sites-available/
+   76  l
+   77  nano default-ssl.conf
+   78  systemctl reload apache2
+   79  nano /etc/apache2/sites-available/000-default.conf
+   80  nano /etc/apache2/sites-available/000-default.conf
+   81  nano /etc/apache2/sites-available/000-default.conf
+   82  nano /etc/apache2/sites-available/000-default.conf
+   83  nano /etc/apache2/sites-available/default-ssl.conf
+   84  su user
+   85  l
+   86  nano /etc/apache2/apache2.conf
+   87  su user
+   88  chown -R www-data:www-data /home/user/www
+   89  usermod -a -G www-data user
+   90  chmod -R 775 /home/user/www
+   91  cd /etc/apache2/sites-available
+   92  l
+   93  cat 000-default.conf >site.conf
+   94  cat default-ssl.conf >site.conf
+   95  l
+   96  nano site.conf
+   97  cat 000-default.conf >site.conf
+   98  cat 000-default.conf >>site.conf
+   99  nano site.conf
+  100  cat default-ssl.conf >>site.conf
+  101  nano site.conf
+  102  a2dissite 000-default
+  103  a2dissite default-ssl
+  104  rm 000-default.conf
+  105  l
+  106  rm default-ssl.conf
+  107  nano site.conf
+  108  a2ensite site.conf
+  109  service apache2 restart
+  110  systemctl restart apache2
+  111  systemctl status apache2
+  112  l
+  113  systemctl status apache2
+  114  cd ..
+  115  l
+  116  openssl req $@ -new -x509 -days 3650 -nodes -out /etc/apache2/apache.pem -keyout /etc/apache2/apache.pem
+  117  cd /home
+  118  l
+  119  cd user
+  120  l
+  121  cd www
+  122  l
+  123  cd /etc/apache2
+  124  cd sites-available
+  125  l
+  126  nano site.conf
+  127  a2ensite site.conf
+  128  service apache2 restart
+  129  systemctl status apache2
+  130  l
+  131  nano site.conf
+  132  nano site.conf
+  133  cd /home/user/www
+  134  l
+  135  service apache2 restart
+  136  cd ..
+  137  cd
+  138  openssl req $@ -new -x509 -days 3650 -nodes -out /etc/apache2/apache.pem -keyout /etc/apache2/apache.pem
+  139  cd /etc/apache
+  140  cd /etc/apache2/
+  141  l
+  142  cd sites-available/
+  143  cd ..
+  144  cd sites-enabled/
+  145  l
+  146  nano site.conf
+  147  service apache2 restart
+  148  service apache2 status
+  149  cd..
+  150  cd ..
+  151  l
+  152  nano apache2.conf
+  153  a2enmod rewrite
+  154  a2enmod headers
+  155  cd sites-available/
+  156  l
+  157  nano site.conf
+  158  service apache2 restart
+  159  wget https://repo.mysql.com/mysql-apt-config_0.8.23-1_all.deb
+  160  dpkg -i mysql-apt-config_0.8.23-1_all.deb
+  161  dpkg -i mysql-apt-config_0.8.23-1_all.deb
+  162  apt update
+  163  apt upgrade"
+  164  apt upgrade
+  165  quit
+  166  q
+  167  exit
+  168  apt upgrade
+  169  apt install mysql-server
+  170  mysql -u root -p
+  171  apt install php
+  172  nano /etc/php/7.4/apache2/php.ini
+  173  service apache2 restart
+  174  service apache2 status
+  175  cl
+  176  c
+  177  clear
+  178  su user
+  179  nano hosts
+  180  cd /etc
+  181  l
+  182  nano hosts
+  183  reboot
+  184  cd /etc
+  185  nano hostname
+  186  reboot
+  187  nmap 192.168.1.41
+  188  apt install php-curl php-gd php-zip php-apcu php-xml php-ldap php-mbstring
+  189  apt install php-mysql
+  190  service apache2 restart
+  191  apt install bsdgames
+  192  cd /usr/games
+  193  l
+  194  ./hangman
+  195  o
+  196  ./snake
+  197  ./snake
+  198  ./snake
+  199  cd
+  200  apt install phpmyadmin
+  201  cd /etc/apache2
+  202  l
+  203  cd conf-available/
+  204  l
+  205  cd
+  206  cd /etc/phpmyadmin/
+  207  l
+  208  nano apache.conf
+  209  service restart apache2
+  210  service apache2 restart
+  211  cd
+  212  apt install vsftpd
+  213  cp /etc/vsftpd.conf /etc/vsftpd.bak
+  214  cd /etc
+  215  l
+  216  rm /etc/vsftpd.conf
+  217  l
+  218  nano /etc/vsftpd.conf
+  219  service vsftpd restart
+  220  nmap 127.0.0.1
+  221  nmap 192.168.1.41
+  222  service vsftpd status
+  223  l
+  224  rm -r vsftpd.conf
+  225  l
+  226  nano vsftpd.conf
+  227  service vsftpd restart
+  228  nmap 192.168.1.41
+  229  nmap 127.0.0.1
+  230  service vsftpd status
+  231  l
+  232  cd samba
+  233  l
+  234  mv /etc/samba/smb.conf /etc/samba/smb.bak
+  235  l
+  236  nano /etc/samba/smb.conf
+  237  l
+  238  service nmbd restart
+  239  service smbd restart
+  240  testparm
+  241  smbpasswd -a user
+  242  cd /root
+  243  touch backup.sh
+  244  chmod +x backup.sh
+  245  nano backup.sh
+  246  ./backup.sh
+  247  crontab -e
+  248  nano backup.sh
+  249  nano backup.sh
+  250  crontab -e
+  251  cd /home/user
+  252  rm -R /home/user/www
+  253  l
+  254  wget https://fr.wordpress.org/latest-fr_FR.zip
+  255  unzip latest-fr_FR.zip
+  256  mv wordpress www
+  257  l
+  258  chown -R www-data:www-data /home/user/www
+  259  chmod -R 775 /home/user/www
+  260  cd /etc/apache2/sites-available/
+  261  l
+  262  nano sites
+  263  nano site
+  264  nano site.conf
+  265  nano /etc/apache2/apache2.conf
+  266  cd
+  267  history
